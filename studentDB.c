@@ -1,6 +1,5 @@
-
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 typedef struct node
 {
@@ -22,12 +21,18 @@ node *createnode()
     scanf("%s", newnode->name);
     printf("Enter student's reg_no.: ");
     scanf("%d", &newnode->reg);
+	if(newnode->reg<=0){
+		printf("Please Enter valid Number\n");
+		exit(1);
+	}
+		
     printf("Enter student's roll_no.: ");
     scanf("%d", &newnode->roll);
     printf("Enter student's percentage: ");
     scanf("%f", &newnode->per);
     newnode->next = NULL;
     return newnode;
+
 }
 
 node *inputStudentData(node *head, node **last)
@@ -132,16 +137,14 @@ void displayStudent(node *head)
         return;
     }
 
-    printf("********************************************************");
-    printf("\n          Available Student Data               ");
-    printf("\n| Name\t | Roll\t | Reg\t | Percentage |\n");
+    printf("\nAvailable student data:");
+    printf("\nName\tRoll\tReg\tPercentage\n");
 
     while (ptr != NULL)
     {
-        printf("| %s\t | %d\t | %d\t | %.2f %%     |  \n", ptr->name, ptr->roll, ptr->reg, ptr->per);
+        printf("%s\t%d\t%d\t%.2f\n", ptr->name, ptr->roll, ptr->reg, ptr->per);
         ptr = ptr->next;
     }
-    
 }
 
 int main()
@@ -157,15 +160,12 @@ int main()
     int choice, pick, rolll;
 
     while (1)
-    { 
-	printf("*********************************************************\n");
-        printf("\n              Student Database Menu                   \n");
+    {
+        printf("\nStudent Database Menu:\n");
         printf("1. Insert student data\t2. Delete student data\n");
         printf("3. Update student data\t4. Display all student data\n");
-        printf("5. Exit");
-        printf("\n*********************************************************\n");
-        printf("Enter Your Choice:");
-	scanf("%d", &choice);
+        printf("5. Exit\nEnter your choice: ");
+        scanf("%d", &choice);
 
         switch (choice)
         {
@@ -192,4 +192,3 @@ int main()
 
     return 0;
 }
-
