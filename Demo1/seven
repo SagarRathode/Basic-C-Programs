@@ -1,0 +1,7 @@
+extern int i = 10;		
+int main()
+{
+	auto int j = 20;
+	register int k  30;
+     static int m = 15;	
+}

@@ -1,0 +1,8 @@
+1.first create hello.c file in folder
+2.go to lkmpg link and paste hello world kernel module program
+3.create makefile in that folder and copy the code and paste
+4.compile the module using command ->make
+5.use insmod command to insert module->insmod hello.ko
+6.check logfile message we use command ->dmesg
+7.use rmmod command to remove the module
+

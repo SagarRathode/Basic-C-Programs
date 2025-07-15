@@ -1,0 +1,22 @@
+***************************************
+Note:in this folder two modules
+first is hello world
+second is process explorer
+***************************************
+
+
+1.first create hello.c file in folder
+2.go to lkmpg link and paste hello world kernel module program
+3.create makefile in that folder and copy the code and paste
+4.compile the module using command ->make
+5.chek the list of kernel module use command->lsmod modulename
+6.use insmod command to insert module->insmod hello.ko
+7.chek the list of kernel module use command->lsmod
+*******you show your module name hello***********
+8.check logfile message we use command ->dmesg
+9.use rmmod command to remove the module ->rmmodmodulename
+10.chek the list of kernel module use command->lsmod
+*******Not showing your module name hello***********
+
+********************BEST LUCK************************
+

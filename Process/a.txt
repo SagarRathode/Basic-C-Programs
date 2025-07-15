@@ -1,0 +1,8 @@
+argc count = 2
+[T1] iteration #1 - glob = 1
+[T1] iteration #2 - glob = 2
+[T1] iteration #3 - glob = 3
+[T2] iteration #1 - glob = 4
+[T2] iteration #2 - glob = 5
+[T2] iteration #3 - glob = 6
+glob = 6

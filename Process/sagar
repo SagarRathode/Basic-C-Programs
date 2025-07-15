@@ -1,0 +1,14 @@
+
+extern int i = 10;		// extern storage class
+int main()
+{
+	auto int j = 20;		// auto storage class
+	register int k  30;			// register storage class
+	static int m = 15;				// static storage class
+
+	for(k=0;k<10;k++)
+	{
+		printf("%d",k);
+	}
+	return 0;
+}

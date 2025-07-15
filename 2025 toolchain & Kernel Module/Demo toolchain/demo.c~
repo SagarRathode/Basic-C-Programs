@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int Number1,Number2,Number3,Number4;
+printf("Enter two number\n");
+scanf("%d%d",&Number1,&Number2);
+ Number3=Number1+Number2;
+printf("%d",Number3);	
+}
