@@ -3,7 +3,7 @@
 #include<stdbool.h>
 //this example demonstrates the Operator in C,C++,Swift 
 //types of operator
-//developed by Sagar Rathode
+//developed by Sagar Rathode.
 struct Operator{
 	int x;
 	int y;
