@@ -30,7 +30,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("Enter marks for subject %d: ", i + 1);
         scanf("%f", &marks[i]);
-	if(marks[i]>total_marks_per_subject)
+	if(marks[i]>total_marks_per_subject || marks[i]<0)
 	{
 		printf("ERROR:INVALID INPUT VALUE\n");
 		//printf("Enter marks for subject %d:",i+1);
