@@ -1,3 +1,13 @@
+*/
+    output:-
+	E D C B A
+	E D C B A
+	E D C B A
+	E D C B A
+	E D C B A
+*/
+
+
 #include<stdio.h>
 void pattern(int iRow,int iCol)
 {
