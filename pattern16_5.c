@@ -1,4 +1,4 @@
-
+w 
 /*
  *   1 1 1 1 1
  *   A B C D E
@@ -7,7 +7,8 @@
  *   1 1 1 1 1
  *
  *
- *
+ * below program have two function pattern1 and pattern 
+ * both function print same pattern 
  *
  *
  *
