@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 */
     output:-
 	E D C B A
@@ -8,6 +9,8 @@
 */
 
 
+=======
+>>>>>>> fc97c49 (pattern)
 #include<stdio.h>
 void pattern(int iRow,int iCol)
 {

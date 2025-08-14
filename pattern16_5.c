@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 w 
+=======
+
+>>>>>>> fc97c49 (pattern)
 /*
  *   1 1 1 1 1
  *   A B C D E
@@ -7,8 +11,12 @@ w
  *   1 1 1 1 1
  *
  *
+<<<<<<< HEAD
  * below program have two function pattern1 and pattern 
  * both function print same pattern 
+=======
+ *
+>>>>>>> fc97c49 (pattern)
  *
  *
  *
@@ -21,7 +29,11 @@ w
 
 
 #include<stdio.h>
+<<<<<<< HEAD
 void pattern1(int iRow,int iCol)
+=======
+/*void pattern(int iRow,int iCol)
+>>>>>>> fc97c49 (pattern)
 {
 	char Ch = 'A';
 	int i = 1,j = 1;
@@ -58,6 +70,10 @@ void pattern1(int iRow,int iCol)
 
 	printf("\n");
 }
+<<<<<<< HEAD
+=======
+*/
+>>>>>>> fc97c49 (pattern)
 
 
 void pattern(int iRow, int iCol)
