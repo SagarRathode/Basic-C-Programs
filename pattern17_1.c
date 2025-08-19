@@ -1,3 +1,16 @@
+/////////////////////////////////////////////////////////////
+// this program accept input rows and columns from user
+// and print the below pattern
+//
+// Output:-
+// Enter The Number of Rows => 5
+// Enter The Number of Columns=> 5
+// 12345
+// 67891
+// 23456
+// 78912
+// 34567
+//////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 void Pattern(int iRow,int iCol)
