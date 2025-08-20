@@ -19,7 +19,8 @@ void Pattern(int iRow, int iCol)
     {
         for(int j=1; j<=iCol; j++)
         {
-		// 1st way
+		// 1st way //here we check which position * required
+
            /* if((i==1 && (j==1 || j==3 || j==4||j==5)) ||       // Row 1
                (i==2 && (j==1 || j==3)) ||               // Row 2
                (i==3 && (j==1 || j==2 || j==3 || j==4 || j==5)) || // Row 3
@@ -34,6 +35,8 @@ void Pattern(int iRow, int iCol)
 	    */
 
 		// 2nd way
+		// here we check condition which position space required
+		
 	    if((i == 1 && (j==2)) ||                   // row 1
 	       (i == 2 && (j==2 || j==4 || j==5)) ||   // row 2
 	       (i == 4 && (j==1 || j==2 || j==4)) ||   // row 4
