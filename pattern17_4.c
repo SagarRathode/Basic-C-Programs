@@ -19,18 +19,31 @@ void Pattern(int iRow, int iCol)
     {
         for(int j=1; j<=iCol; j++)
         {
-            if((i==1 && (j==1 || j==3 || j==4||j==5)) ||       // Row 1
+		// 1st way
+           /* if((i==1 && (j==1 || j==3 || j==4||j==5)) ||       // Row 1
                (i==2 && (j==1 || j==3)) ||               // Row 2
                (i==3 && (j==1 || j==2 || j==3 || j==4 || j==5)) || // Row 3
                (i==4 && (j==3 || j==5)) ||               // Row 4
                (i==5 && (j==1 || j==2 || j==3 || j==5)))         // Row 5
             {
                 printf(" * ");
-            }
-            else
-            {
-                printf("   "); // space
-            }
+            }else
+	    {
+		    printf("   ");
+	    }
+	    */
+
+		// 2nd way
+	    if((i == 1 && (j==2)) ||                   // row 1
+	       (i == 2 && (j==2 || j==4 || j==5)) ||   // row 2
+	       (i == 4 && (j==1 || j==2 || j==4)) ||   // row 4
+	       (i == 5 && (j==4)))                     // row 5
+		{
+		      printf("   ");
+	      	}
+	    	else{
+		    printf(" * ");
+	    	}
         }
         printf("\n");
     }
