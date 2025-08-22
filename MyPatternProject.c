@@ -10,7 +10,12 @@ int main() {
         printf("***************""Welcome To Pattern""************* \n");
         printf("\t1. pattern17_1    2. pattern17_2\n");
         printf("\t3. pattern17_3    4. pattern17_4\n");
-        printf("\t\t5. Exit\n");
+	printf("\t5. pattern16_1    6. pattern16_2\n");
+	printf("\t6. pattern16_3    7. pattern16_3_1\n");
+	printf("\t8. pattern16_4    9. pattern16_5\n");
+	printf("\t10.pattern16_6    11.pattern16_7\n");
+
+        printf("\t\t 100. Exit\n");
         printf("Enter Your Choice for pattern => ");
         scanf("%d", &number);
 
@@ -27,7 +32,29 @@ int main() {
             case 4:
                 makeExe("pattern17_4");
                 break;
-            case 5:
+	    case 5:
+		makeExe("pattern16_1");
+		break;
+	    case 6:
+		makeExe("pattern16_2");
+		break;
+	    case 7:
+		makeExe("pattern16_3");
+		break;
+	    case 8:
+		makeExe("pattern16_3_1");
+		break;
+	    case 9:
+		makeExe("pattern16_4");
+		break;
+	    case 10:
+		makeExe("pattern16_5");
+		break;
+	    case 11:
+		makeExe("pattern16_6");
+		break;
+
+            case 100:
                 printf("Exit\n");
                 exit(0);
             default:
