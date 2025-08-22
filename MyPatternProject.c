@@ -6,7 +6,9 @@ void makeExe(char *programName);
 
 int main() {
     int number;
-    do {
+    do 
+    {
+	printf("\n");
         printf("***************""Welcome To Pattern""************* \n");
         printf("\t1. pattern17_1    2. pattern17_2\n");
         printf("\t3. pattern17_3    4. pattern17_4\n");
