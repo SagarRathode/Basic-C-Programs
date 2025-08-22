@@ -16,6 +16,7 @@ int main() {
 	printf("\t10.pattern16_6    11.pattern16_7\n");
 
         printf("\t\t 100. Exit\n");
+	printf("************************************************** \n");
         printf("Enter Your Choice for pattern => ");
         scanf("%d", &number);
 
