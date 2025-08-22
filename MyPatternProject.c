@@ -7,10 +7,10 @@ void makeExe(char *programName);
 int main() {
     int number;
     do {
-        printf("Welcome To Pattern \n");
-        printf("1. pattern17_1    2. pattern17_2\n");
-        printf("3. pattern17_3    4. pattern17_4\n");
-        printf("5. Exit\n");
+        printf("***************""Welcome To Pattern""************* \n");
+        printf("\t1. pattern17_1    2. pattern17_2\n");
+        printf("\t3. pattern17_3    4. pattern17_4\n");
+        printf("\t\t5. Exit\n");
         printf("Enter Your Choice for pattern => ");
         scanf("%d", &number);
 
@@ -50,6 +50,10 @@ void makeExe(char *programName) {
         // Run the program and return back to menu
         snprintf(command, sizeof(command), "./%s", programName);
         system(command);
+
+	//remove executable file
+	snprintf(command,sizeof(command),"rm %s",programName);
+	system(command);
     } else {
         printf("Compilation Failed\n");
     }
