@@ -1,3 +1,7 @@
+
+
+//this program demonstrates Four D memory allocation and free
+
 #include <stdio.h>
 #include <stdlib.h>
 
