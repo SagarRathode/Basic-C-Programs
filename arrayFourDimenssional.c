@@ -1,3 +1,7 @@
+
+
+//this program demonstrates Four D memory allocation and free
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,7 +12,8 @@ int main() {
     scanf("%d %d %d %d", &first, &second, &third, &fourth);
     printf("your dimenssion is arr[%d][%d][%d][%d]\n",first,second,third,fourth);
 
-    // allocate the 4D array
+    // allocate the 4D array arr[i][j][k][l]
+
     int ****arr = (int ****)malloc(first* sizeof(int ***));
     for (int i = 0; i < first; i++) {
 
